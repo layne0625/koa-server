@@ -1,0 +1,27 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "ioredis": "^4.9.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-csrf": "^3.0.7",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.5",
+    "sequelize-cli": "^5.4.0",
+    "tldjs": "^2.3.1",
+    "uid-safe": "^2.1.5"
+  }
+}
